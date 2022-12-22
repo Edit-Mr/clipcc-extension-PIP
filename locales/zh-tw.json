@@ -1,0 +1,10 @@
+{
+    "em.pip.name": "子母畫面",
+    "em.pip.description": "將舞台用畫中畫顯示",
+    "em.pip.category": "畫中畫",
+    "em.pip.on": "顯示子母畫面",
+    "em.pip.off": "隱藏子母畫面",
+    "em.pip.start": "開始串流",
+    "em.pip.available": "子母畫面是否可用?",
+    "em.pip.status": "子母畫面被啟用?"
+}

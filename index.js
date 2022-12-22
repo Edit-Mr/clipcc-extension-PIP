@@ -5,7 +5,7 @@ class MyExtension extends Extension {
         api.addCategory({
             categoryId: 'em.pip.category',
             messageId: 'em.pip.category',
-            color: '#FFA500'
+            color: '#ff8400'
         });
         api.addBlock({
             opcode: 'em.pip.status',
@@ -15,11 +15,11 @@ class MyExtension extends Extension {
             function: () => this.stat()
         });
         api.addBlock({
-            opcode: 'em.pip.avaliable',
-            type: type.BlockType.COMMAND,
-            messageId: 'em.pip.avaliable',
+            opcode: 'em.pip.available',
+            type: type.BlockType.REPORTER,
+            messageId: 'em.pip.available',
             categoryId: 'em.pip.category',
-            function: args => this.avaliable()
+            function: args => this.available()
         });
         api.addBlock({
             opcode: 'em.pip.start',
@@ -49,7 +49,7 @@ class MyExtension extends Extension {
     stat() {
         if (document.pictureInPictureElement == video) return true; return false;
     }
-    avaliable() {
+    available() {
         if (document.pictureInPictureEnabled) return true; return false;
     }
     start() {

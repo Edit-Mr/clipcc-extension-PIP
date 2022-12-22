@@ -1,9 +1,10 @@
 {
-    "em.pip.name": "畫中畫",
-    "em.pip.description": "將舞台用畫中畫顯示",
-    "em.pip.category": "畫中畫(請先開始串流再顯示子母畫面)",
-    "em.pip.on": "顯示子母畫面",
-    "em.pip.off": "隱藏子母畫面",
-    "em.pip.start": "開始串流",
-    "em.pip.status": "子母畫面被啟用?"
+    "em.pip.name": "子母画面",
+    "em.pip.description": "将舞台用画中画显示",
+    "em.pip.category": "画中画",
+    "em.pip.on": "显示子母画面",
+    "em.pip.off": "隐藏子母画面",
+    "em.pip.start": "开始串流",
+    "em.pip.available": "子母画面是否可用?",
+    "em.pip.status": "子母画面被启用?"
 }
