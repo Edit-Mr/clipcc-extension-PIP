@@ -1,8 +1,9 @@
 {
     "em.pip.name": "PIP",
     "em.pip.description": "Display stage in PIP",
-    "em.pip.category": "Picture in Picture",
-    "em.pip.on": "Display PIP"
-    "em.pip.off": "Hide PIP"
-    "em.pip.status": "Is PIP on"
+    "em.pip.category": "Picture in Picture(start streaming before display)",
+    "em.pip.on": "Display PIP",
+    "em.pip.off": "Hide PIP",
+    "em.pip.start": "Start Streaming",
+    "em.pip.status": "Is PIP on?"
 }
