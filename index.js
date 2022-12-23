@@ -47,7 +47,8 @@ class MyExtension extends Extension {
         api.removeCategory('em.pip.category');
     }
     stat() {
-        if (document.pictureInPictureElement == video) return true; return false;
+        const videoElements = document.querySelectorAll('video');
+        if (videoElements.length > 0) if (document.pictureInPictureElement == video) return true; return false;
     }
     available() {
         if (document.pictureInPictureEnabled) return true; return false;
@@ -57,19 +58,15 @@ class MyExtension extends Extension {
         const newElement = document.createElement('div');
 
         // Set the element's content
-        newElement.innerHTML = '<video id="video" width="480" height="360" autoplay muted style="display:none;"></video>';
+        
         // Add the element to the top of the body
         document.body.prepend(newElement);
-        const video = document.getElementById('video');
         const canvas = document.getElementsByTagName('canvas')[0];
-
+        newElement.innerHTML = '<video id="video" width="'+canvas.width+'" height="'+canvas.height+'" autoplay muted style="display:none;"></video>';
+        const video = document.getElementById('video');
+        
         // Check if the element was found
-        if (canvas) {
-            // The element was found, do something with it
-        } else {
-            // The element was not found
-            console.error('Could not find canvas element');
-        }
+        if (!canvas) console.error('Could not find canvas element');
         // Stream the canvas to the video element
         let stream;
         if (canvas.captureStream) {
