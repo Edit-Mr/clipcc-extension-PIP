@@ -47,7 +47,7 @@ class MyExtension extends Extension {
         api.removeCategory('em.pip.category');
     }
     stat() {
-        const videoElements = document.querySelectorAll('video');
+        var videoElements = document.querySelectorAll('video');
         if (videoElements.length > 0) if (document.pictureInPictureElement == video) return true; return false;
     }
     available() {
@@ -55,6 +55,8 @@ class MyExtension extends Extension {
     }
     start() {
         console.log("starting");
+        var videoElements = document.querySelectorAll('video');
+        if (videoElements.length > 0) return "Already Started";
         const newElement = document.createElement('div');
 
         // Set the element's content

@@ -1,3 +1,19 @@
+<div align=center>
+
 # clipcc-extension-PIP
 A picture in picture extension for ClipCC
+</div>
 
+![](assets/icon.png)
+## Browser compatibility
+| desktop                                                                                              |                    |                    |                    |                    | mobile             |                    |                     |                    |                    |                    |                 |
+| ---------------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------- | ------------------ | ------------------ | ------------------ | --------------- |
+|                                                                                                      | Chrome             | Edge               | Firefox            | Opera              | Safari             | Chrome Android     | Firefox for Android | Opera Android      | Safari on iOS      | Samsung Internet   | WebView Android |
+| PictureInPictureWindow                                                                               | 69                 | 79                 | No                 | 56                 | 13.1               | 105                | No                  | 72                 | 13.4               | No                 | 105             |
+| Toggle history                                                                                       | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history  | Toggle<br> history | Toggle<br> history | Toggle<br> history |                 |
+| [height](https://developer.mozilla.org/en-US/docs/Web/API/PictureInPictureWindow/height)             | 69                 | 79                 | No                 | 56                 | 13.1               | 105                | No                  | 72                 | 13.4               | No                 | 105             |
+| Toggle history                                                                                       | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history  | Toggle<br> history | Toggle<br> history | Toggle<br> history |                 |
+| [resize event](https://developer.mozilla.org/en-US/docs/Web/API/PictureInPictureWindow/resize_event) | 69                 | 79                 | No                 | 56                 | 13.1               | 105                | No                  | 72                 | 13.4               | No                 | 105             |
+| Toggle history                                                                                       | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history  | Toggle<br> history | Toggle<br> history | Toggle<br> history |                 |
+| [width](https://developer.mozilla.org/en-US/docs/Web/API/PictureInPictureWindow/width)               | 69                 | 79                 | No                 | 56                 | 13.1               | 105                | No                  | 72                 | 13.4               | No                 | 105             |
+| Toggle history                                                                                       | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history | Toggle<br> history  | Toggle<br> history | Toggle<br> history |                    |                 |
