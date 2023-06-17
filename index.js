@@ -9,14 +9,14 @@ class MyExtension extends Extension {
         });
         api.addBlock({
             opcode: 'em.pip.status',
-            type: type.BlockType.REPORTER,
+            type: type.BlockType.BOOLEAN,
             messageId: 'em.pip.status',
             categoryId: 'em.pip.category',
             function: () => this.stat()
         });
         api.addBlock({
             opcode: 'em.pip.available',
-            type: type.BlockType.REPORTER,
+            type: type.BlockType.BOOLEAN,
             messageId: 'em.pip.available',
             categoryId: 'em.pip.category',
             function: args => this.available()
